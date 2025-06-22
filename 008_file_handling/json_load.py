@@ -10,4 +10,3 @@ with open(file_ko_path, "r") as fp:
     print(content_ko_dictionary["recommendations"][0])
 
 
-
