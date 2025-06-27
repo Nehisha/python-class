@@ -1,4 +1,4 @@
-1.
+# 1.
 
 fruits = ["apple", "banana", "mango", "watermelon"]
 
@@ -11,7 +11,7 @@ for i in range(1, 6):
 for i in range(0, 1000):
     print(f"{i + 1} Nehisha Hirachan")
 
-2.
+# 2.
 
 i = 0
 while i < 1000:
@@ -21,7 +21,7 @@ while i < 1000:
     print(f"{i}. Swift Academy")
     if i == 100:
         break
-3.
+# 3.
 
 
 def calculator(num1, operation, num2):
@@ -49,11 +49,10 @@ print(f"The division is {division}.")
 multi = calculator(1, "*", 3)
 print(f"The multiplication is {multi}.")
 
-4.
+# 4.
 
 n = int(input("Enter a number: "))
 number = 0
 
-for i in range(1,11):
-    print(f"{n} X {i} = {n*i}")
-
+for i in range(1, 11):
+    print(f"{n} X {i} = {n * i}")
