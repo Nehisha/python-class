@@ -7,8 +7,14 @@ def double_list(number_haru):
     doubled_numbers = []
 
     for numbers in number_haru:
-        doubled_numbers.append(numbers**2)
+        doubled_numbers.append(numbers * 2)
     return doubled_numbers
 
 
 print(double_list([1, 2, 3, 4, 5]))
+
+
+num = [1, 2, 3, 4, 5, 6]
+doubled_numbers = list(map(lambda x: x * 2, num))
+
+print(f"{doubled_numbers}")

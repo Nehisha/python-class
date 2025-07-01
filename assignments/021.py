@@ -3,12 +3,10 @@
 # Use a simple sorting algorithm (e.g., bubble sort) instead of sorted().
 
 
-
-
 def sort_by_age(name):
     return name[::-1]
 
 
 print(sort_by_age(["Nehisha", "Simran", "Sharma", "Hirachan"]))
 
-i donot know this
+# i donot know this
