@@ -7,8 +7,18 @@
 #  returns [2, 1, 3]. Use list methods like indexing and loops.
 
 
+# a = 5
+# b = 6
+# a, b = b, a
+# print(b)
+# print(a)
 
 
 def swap_pairs(lst):
+    for i in range(1, len(lst) - 1, 2):
+        current_index = 1
+        next_index = i + 1
+        lst[current_index], lst[next_index] = lst[next_index], lst[current_index]
 
-    # i donot know this
+
+print(swap_pairs([1, 2, 3, 4, 5, 6]))

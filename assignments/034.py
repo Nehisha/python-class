@@ -8,16 +8,26 @@
 # 1 3 5
 # 1 3 5 7
 
-def number_pattern(n):
-    for i in range(1, n + 1):
-        num = 1
-        count = 0
+# def number_pattern(n):
+#     for i in range(1, n + 1):
+#         num = 1
+#         count = 0
 
-        while count < i:
-            print(num, end="")
-            num += 2
-            count += 1
+#         while count < i:
+#             print(num, end="")
+#             num += 2
+#             count += 1
+#         print()
+
+
+# number_pattern(4)
+
+def number_pattern(num):
+    for i in range(1, num + 1):
+        for j in range(1, i * 2, 2):
+            print(j, end=" ")
         print()
+
 
 
 number_pattern(4)
