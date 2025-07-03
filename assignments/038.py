@@ -8,6 +8,6 @@
 # **
 # *
 
-for i in range(5, 0, -1):
-    star = "*" * i
-    print(f"{star}")
+for i in range(5,0,-1):
+    stars = "*" * i
+    print(stars)

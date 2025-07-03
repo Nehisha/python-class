@@ -12,14 +12,12 @@
 #    ***
 #     *
 
-row = int(input("Enter how many rows: "))
+for i in range(1, 6):
+    space = 5 - i
+    stars = 2 * i - 1
+    print(" " * space + "*" * stars)
 
-for i in range(1, row + 1):
-    spaces = " " * (row - i)
-    stars = "*" * (2 * i - 1)
-    print(f"{spaces + stars}")
-
-for i in range(row):
-    spaces = " " * i
-    stars = "*" * (2 * (row - i) - 1)
-    print(f"{spaces + stars}")
+for i in range(5, 0, -1):
+    space = 5 - i
+    stars = 2 * i - 1
+    print(" " * space + "*" * stars)

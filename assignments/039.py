@@ -9,8 +9,7 @@
 # *********
 
 
-row = int(input("Enter a number :"))
-for i in range(1, row + 1):
-    spaces = " " * (row - i)
-    stars = "*" * (2 * i - 1)
-    print(f"{spaces + stars}")
+for i in range(1, 6):
+    space = 5 - i
+    stars = 2 * i - 1
+    print(" " * space + "*" * stars)

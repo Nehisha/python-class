@@ -8,8 +8,8 @@
 # *
 # Hint: Use a condition to place a star based on the row and column indices, creating a diagonal or alternating pattern.
 
-row = int(input("Enter how many rows: "))
-for i in range(1, row + 1):
+row = 5
+for i in range(1, 6):
     if i % 2 != 0:
         print("*")
     else:

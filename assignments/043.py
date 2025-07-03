@@ -7,7 +7,7 @@
 # 4 4 4 4
 # 5 5 5 5 5
 
-row = int(input("Enter how many rows: "))
+row = 5
 for i in range(1, row + 1):
-    numbers = (str(i) + " ") * i
-    print(numbers.strip())
+    number = str(i) * i
+    print(number)
